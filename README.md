@@ -1,16 +1,16 @@
-## Hi there 👋
+# UN1C0RN Governors
 
-<!--
-**un1c0rn-governors/un1c0rn-governors** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+AI workflow governors for protecting approved design, code, and creator-system decisions from drift.
 
-Here are some ideas to get you started:
+This repo contains governance tools built by UN1C0RN for AI-assisted builders.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Governors
+
+### Design Governor
+Locks approved website design contracts and blocks AI coding agents from changing protected sections unless the change request names them first.
+
+Location: `design-governor/`
+
+### Code Governor
+Coming later.
+System-level governance for code locks, chain proof, execution review, and AI-assisted infrastructure control.

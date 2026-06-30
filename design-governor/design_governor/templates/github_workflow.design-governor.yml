@@ -1,0 +1,36 @@
+name: design-governor
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  design-governor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Design Governor
+        run: pip install design-governor
+
+      - name: Install Playwright Chromium
+        run: python -m playwright install --with-deps chromium
+
+      # If your contracts use visual proof, start the app before the check runs.
+      # Example:
+      # - name: Start app for visual proof
+      #   run: npm run dev -- --host 127.0.0.1 &
+      #
+      # - name: Set visual base URL
+      #   run: echo "DESIGN_GOVERNOR_VISUAL_BASE_URL=http://127.0.0.1:3000" >> $GITHUB_ENV
+
+      - name: Run Design Governor CI Check
+        run: design-governor ci-check

@@ -1,0 +1,36 @@
+{
+  "request_globs": [
+    "design_change_request.active.json",
+    "design_change_request.pr.json"
+  ],
+  "required_checks": [
+    "check"
+  ],
+  "fail_if_no_requests": true,
+  "enabled_adapters": [
+    "css",
+    "html",
+    "jsx",
+    "vue",
+    "svelte"
+  ],
+  "strict_surface_mode": false,
+  "visual_proof_ci": {
+    "enabled": false,
+    "start_command": "",
+    "base_url": "",
+    "install_browser_with_deps": true
+  },
+  "explanation_mode": "plain",
+  "available_modes": [
+    "plain",
+    "expert",
+    "ci"
+  ],
+  "default_user_level": "beginner",
+  "show_technical_details": false,
+  "ci_commands": [
+    "design-governor ci-check"
+  ],
+  "agent_workflow_docs": "DESIGN_GOVERNOR_AGENT_WORKFLOWS.md"
+}

@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: design-governor
+        name: design-governor ci-check
+        entry: design-governor ci-check
+        language: system
+        pass_filenames: false

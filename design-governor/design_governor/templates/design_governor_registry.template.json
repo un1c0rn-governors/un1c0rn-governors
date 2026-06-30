@@ -1,0 +1,46 @@
+{
+  "system_name": "contract_indexed_website_design_governor",
+  "saved_at": "",
+  "workspace_root": "",
+  "impact_map": {
+    "file_to_contracts": {},
+    "token_to_contracts": {},
+    "selector_to_contracts": {},
+    "surface_to_contracts": {}
+  },
+  "contracts": [
+    {
+      "contract_id": "example.site.hero.v1",
+      "design_name": "Hero Section",
+      "contract_name": "Primary hero area",
+      "status": "draft",
+      "owner_files": [
+        "index.html",
+        "styles.css"
+      ],
+      "css_tokens": [],
+      "selectors": [],
+      "copy_blocks": [],
+      "surface_targets": [],
+      "visual_states": [],
+      "interaction_states": [],
+      "animation_rules": [],
+      "visual_invariants": [],
+      "state_evidence": [],
+      "policy_checks": [],
+      "visual_proof_specs": [],
+      "allowed_edits": [],
+      "blocked_edits": [],
+      "allowed_change_kinds": [],
+      "blocked_change_kinds": [],
+      "approved_notes": [],
+      "approved_proof": {},
+      "last_approved_hash": "",
+      "last_approved_snapshot": "",
+      "proof_status": "none",
+      "stale_detected_at": "",
+      "stale_reasons": [],
+      "updated_at": ""
+    }
+  ]
+}

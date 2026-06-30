@@ -1,0 +1,11 @@
+{
+  "request_id": "change-001",
+  "summary": "Describe the design change here.",
+  "requested_contract_ids": [
+    "example.site.hero.v1"
+  ],
+  "planned_file_touches": [],
+  "planned_token_touches": [],
+  "planned_selector_touches": [],
+  "planned_surface_touches": []
+}
